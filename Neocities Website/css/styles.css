@@ -58,6 +58,13 @@
 
 
 
+.content {
+    display: flex;
+    gap: 2px;
+    justify-content: space-between;
+}
+
+
 .sidebar-left {
     width: 20%;
 }
@@ -82,10 +89,13 @@
 
 
 .balrog-button {
+    /*
+    Balrog Button created by Jug @ jugbug.neocities.org
+    */
     width: 100px;
     height: 52px;
 
-    background-image: url('../images/balrog-sprite.jpg');
+    background-image: url('../images/buttons/balrog button/half/balrog-sprite.jpg');
     background-repeat: no-repeat;
 }
 
@@ -97,3 +107,53 @@
     background-position: -192px 0;
 }
 
+
+.balrog-button-88 {
+    /*
+    Balrog Button 88x31 created by Jug @ jugbug.neocities.org
+    */
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    border-radius: 0;
+
+    width: 88px;
+    height: 31px;
+
+    background-image: url('../images/buttons/balrog button/88x31/balrog-sprite-88x31.jpg');
+    background-repeat: no-repeat;
+}
+
+.balrog-button-88:hover {
+    background-position: -88px 0;
+}
+
+.balrog-button-88:active {
+    background-position: -176px 0;
+}
+
+
+
+.balrog-button-31 {
+    /*
+    Balrog Button 31x31 created by Jug @ jugbug.neocities.org
+    */
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    border-radius: 0;
+
+    width: 31px;
+    height: 31px;
+
+    background-image: url('../images/buttons/balrog button/31x31/balrog-sprite-31x31.jpg');
+    background-repeat: no-repeat;
+}
+
+.balrog-button-31:hover {
+    background-position: -31px 0;
+}
+
+.balrog-button-31:active {
+    background-position: -62px 0;
+}
