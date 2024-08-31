@@ -81,18 +81,19 @@
 
 
 
-
 .balrog-button {
     width: 100px;
     height: 52px;
-    background-image: url(../images/balrog-idle.jpg);
+
+    background-image: url('../images/balrog-sprite.jpg');
     background-repeat: no-repeat;
 }
 
 .balrog-button:hover {
-    background-image: url(../images/balrog-hover.jpg);
+    background-position: -96px 0;
 }
 
 .balrog-button:active {
-    background-image: url(../images/balrog-click.jpg);
+    background-position: -192px 0;
 }
+
