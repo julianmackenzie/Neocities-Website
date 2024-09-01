@@ -87,6 +87,15 @@
     gap: 0.5rem;
 }
 
+.changelog {
+    width: 100%;
+    height: 10rem;
+    overflow-y: scroll;
+
+    color: white;
+    font-size:smaller;
+}
+
 
 
 
