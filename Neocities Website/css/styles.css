@@ -4,6 +4,27 @@
 
 
 
+.tektur-500-small {
+  font-family: "Tektur", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  font-size: small;
+}
+
+.tektur-500-xsmall {
+    font-family: "Tektur", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-size: x-small;
+  }
+
+
+
+
 .foreground-gif {
     background-image: url('../images/moonsong-clouds-foreground.gif');
     background-position: center bottom;
@@ -93,7 +114,6 @@
     overflow-y: scroll;
 
     color: white;
-    font-size:smaller;
 }
 
 
@@ -170,4 +190,15 @@
 
 .balrog-button-31:active {
     background-position: -62px 0;
+}
+
+.hank-button-31 {
+    /*
+    Hank Button 31x31 created by Jug @ jugbug.neocities.org for thehank.neocities.org
+    */
+    width: 31px;
+    height: 31px;
+
+    background-image: url('../images/buttons/hank button/hank-button-31x31.jpg');
+    background-repeat: no-repeat;
 }
