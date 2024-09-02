@@ -4,13 +4,20 @@
 
 
 
+h3 {
+    margin: 0;
+}
+
+
 .tektur-500-small {
-  font-family: "Tektur", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
-  font-size: small;
+
+    font-family: "Tektur", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-size: small;
+    color: white;
 }
 
 .tektur-500-xsmall {
@@ -20,6 +27,7 @@
     font-style: normal;
     font-variation-settings: "wdth" 100;
     font-size: x-small;
+    color: white;
   }
 
 
@@ -70,7 +78,8 @@
     list-style-type: none;
     display: flex;
     justify-content: space-around;
-    padding-left: 0px;
+    padding: 0;
+    margin: 0;
 }
 
 .nav li {
@@ -92,7 +101,6 @@
 
 .content-body {
     width: 60%;
-    color: white;
 }
 
 .sidebar-right {
@@ -112,8 +120,18 @@
     width: 100%;
     height: 10rem;
     overflow-y: scroll;
+}
 
-    color: white;
+
+
+
+
+.chrono-background-1 {
+    background-image: url("../images/panels/chrono backgrounds/chrono-background-1.jpg");
+
+    border: 8px solid transparent;
+    border-image: url("../images/panels/chrono backgrounds/chrono-border-1.png") 8 round;
+
 }
 
 
@@ -121,24 +139,23 @@
 
 
 
-
-.balrog-button {
+.balrog-stamp {
     /*
-    Balrog Button created by Jug @ jugbug.neocities.org
+    Balrog Stamp created by Jug @ jugbug.neocities.org
     */
-    width: 100px;
-    height: 52px;
+    width: 99px;
+    height: 56px;
 
-    background-image: url('../images/buttons/balrog button/half/balrog-sprite.jpg');
+    background-image: url('../images/buttons/balrog button/stamp/balrog-sprite-stamp.png');
     background-repeat: no-repeat;
 }
 
-.balrog-button:hover {
-    background-position: -96px 0;
+.balrog-stamp:hover {
+    background-position: -99px 0;
 }
 
-.balrog-button:active {
-    background-position: -192px 0;
+.balrog-stamp:active {
+    background-position: -198px 0;
 }
 
 
@@ -198,7 +215,20 @@
     */
     width: 31px;
     height: 31px;
+    padding:0;
+    margin:0;
 
     background-image: url('../images/buttons/hank button/hank-button-31x31.jpg');
+    background-repeat: no-repeat;
+}
+
+.hank-button-88 {
+    /*
+    Hank Button 88x31 created by Jug @ jugbug.neocities.org for thehank.neocities.org
+    */
+    width: 88px;
+    height: 31px;
+
+    background-image: url('../images/buttons/hank button/hank-button-88x31.gif');
     background-repeat: no-repeat;
 }
