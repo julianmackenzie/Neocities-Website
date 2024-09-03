@@ -1,3 +1,6 @@
+## 9/3/24 12:56pm
+- A chatbox has been added to the site! It's so cool to see the page coming together one piece at a time. I have a lot of fun adding one or two cool things each day!
+
 
 ## 9/2/24 6:42pm
 - This is your changelog speaking. I am no longer HTML-based, taking up lots of space anywhere I wish to appear! Instead, I am recorded in a Markdown file and rendered as HTML via Christopher Jeffrey's popular <a href="https://cdn.jsdelivr.net/npm/marked/marked.min.js" target="_blank">Markdown-to-HTML</a> script!
