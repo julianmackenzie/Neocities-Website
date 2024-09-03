@@ -17,11 +17,7 @@ a:active {
 
 
 
-h3 {
-    margin-top: 0;
-    margin-bottom: 0.3rem;
 
-}
 
 .tektur-500-medium {
 
@@ -122,10 +118,12 @@ h3 {
 
 .sidebar-left {
     width: 20%;
+    flex-direction: column;
 }
 
 .content-body {
     width: 60%;
+    flex-direction: column;
 }
 
 .sidebar-right {
@@ -135,12 +133,24 @@ h3 {
 }
 
 
+.mood-box {
+    text-align: center;
+}
+.mood-box h3 {
+    margin: 0;
+}
+
+
 .guestbook-box {
     display: flex;
     align-items: center;
     gap: 0.5rem;
 }
 
+
+.changelog-box h3 {
+    margin: 0 0 0.2rem 0;
+}
 .minichangelog {
     width: 100%;
     height: 10rem;
@@ -155,7 +165,7 @@ h3 {
     list-style-type: none;
     padding: 0.15rem 0;
 }
-.minichangelog h2 {
+.minichangelog h3 {
     margin-top: 0;
     margin-bottom: 0;
     padding: 0;
