@@ -1,0 +1,54 @@
+
+## 9/2/24 6:42pm
+- This is your changelog speaking. I am no longer HTML-based, taking up lots of space anywhere I wish to appear! Instead, I am recorded in a Markdown file and rendered as HTML via Christopher Jeffrey's popular <a href="https://cdn.jsdelivr.net/npm/marked/marked.min.js" target="_blank">Markdown-to-HTML</a> script!
+- Additionally, sections of the site have their own individual borders now!
+- The right sidebar is now large enough to fit two 88x31 buttons side-by-side.
+- Links now open redirects in a new tab when appropriate and are no longer purple as hell
+
+## 9/2/24 3:07pm
+- The original prototype Balrog Button has been replaced by Balrog Stamp. This is the most important update ever, to any site, of all time.
+
+## 9/2/24 2:25pm
+- Fuck limitless potential. I have added borders to constrain the content of this page!!! Nah but for real tho? Chrono Trigger text boxes go nutty. I've added the default one, and will make a theme switcher some day.
+- Also? Big button rewrite. Balrog and Hank no longer are a button wrapped in an anchor (troglodyte ass HTML).
+
+## 9/2/24 1:33pm
+- An 88x31 version of Hank button is here. Click it if you dare. hank site.
+
+## 9/1/24 4:47pm
+- Hank button added. Check out his neocities site <a href="https://thehank.neocities.org/" target="_blank">here!</a> (or click the hank button)
+
+## 9/1/24 3:45pm
+- The site was given a fresh coat of font with the Tektur paint. I mean a font coat of paint. I mean a sorry mommy i mean mommy im sorry i mean mommy sorry mommy uhhh yeah new font
+
+## 8/31/24 11:59pm
+- This is the changelog speaking. I am no longer taking up the main content area. Instead, I have found this conventient little box to sit inside of! Look for me over here if you want to know what's going on!
+
+## 8/31/24 4:16pm
+- Guestbook icon added. I'm the map, I'm the map, I'm the map, I'm the map. I'm the map.
+- This icon may end up elsewhere, or nowhere. It's the closest Guestbook-adjacent art I've made.
+
+## 8/31/24 4:00pm
+- I've tuned up my buttons a bit and added a Guestbook link! I love all of these little widgets I see on other sites. I'll add a chat box eventually, and a page with my own buttons and assets on it!
+
+## 8/31/24 1:45pm
+- Balrog button 31x31ified. God wanted me to tell you to play Cave Story.
+
+## 8/31/24 1:22pm
+- Balrog button 88x31ified. I have confronted God on my own terms. She's black.
+
+## 8/30/24 8:35pm
+- BALROG BUTTON OPTIMIZED. BILLIONS STRICKEN WITH RAPTUROUS FITS OF MIRTH.
+
+## 8/30/24 7:28pm
+- Balrog Button added. Millions rejoice.
+
+## 8/30/24 5:00pm
+- Clouds are now layered, with the page content sandwiched betwixt them. Fuck yes.
+
+## 8/29/24 11:30pm
+- Three-column layout created. I just learned a LOT about flex. I imported some navigation icons from a personal site from 2022 that I never finished.
+- I also spent a good deal of time editing together a Moonsong cloud GIF and starry background. Sick!
+
+## 8/29/24 10:00am
+- Neocities discovered. How the hell did I not know about this sooner.

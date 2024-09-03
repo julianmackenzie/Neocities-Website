@@ -1,0 +1,93 @@
+.balrog-stamp {
+    /*
+    Balrog Stamp created by Jug @ jugbug.neocities.org
+    */
+    width: 99px;
+    height: 56px;
+
+    background-image: url('../images/buttons/balrog button/stamp/balrog-sprite-stamp.png');
+    background-repeat: no-repeat;
+}
+
+.balrog-stamp:hover {
+    background-position: -99px 0;
+}
+
+.balrog-stamp:active {
+    background-position: -198px 0;
+}
+
+
+.balrog-button-88 {
+    /*
+    Balrog Button 88x31 created by Jug @ jugbug.neocities.org
+    */
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    border-radius: 0;
+
+    width: 88px;
+    height: 31px;
+
+    background-image: url('../images/buttons/balrog button/88x31/balrog-sprite-88x31.jpg');
+    background-repeat: no-repeat;
+}
+
+.balrog-button-88:hover {
+    background-position: -88px 0;
+}
+
+.balrog-button-88:active {
+    background-position: -176px 0;
+}
+
+
+
+.balrog-button-31 {
+    /*
+    Balrog Button 31x31 created by Jug @ jugbug.neocities.org
+    */
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    border-radius: 0;
+
+    width: 31px;
+    height: 31px;
+
+    background-image: url('../images/buttons/balrog button/31x31/balrog-sprite-31x31.jpg');
+    background-repeat: no-repeat;
+}
+
+.balrog-button-31:hover {
+    background-position: -31px 0;
+}
+
+.balrog-button-31:active {
+    background-position: -62px 0;
+}
+
+.hank-button-31 {
+    /*
+    Hank Button 31x31 created by Jug @ jugbug.neocities.org for thehank.neocities.org
+    */
+    width: 31px;
+    height: 31px;
+    padding:0;
+    margin:0;
+
+    background-image: url('../images/buttons/hank button/hank-button-31x31.jpg');
+    background-repeat: no-repeat;
+}
+
+.hank-button-88 {
+    /*
+    Hank Button 88x31 created by Jug @ jugbug.neocities.org for thehank.neocities.org
+    */
+    width: 88px;
+    height: 31px;
+
+    background-image: url('../images/buttons/hank button/hank-button-88x31.gif');
+    background-repeat: no-repeat;
+}
