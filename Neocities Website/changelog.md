@@ -1,3 +1,10 @@
+
+## 9/3/24 11:54pm
+- I have added an asset from my previous site project, the "JMessage", to the site. It's a sprite edit of Curly Brace from Cave Story that looks a lot like myself! For now, it has a WIP message, but eventually, I would like to use this space as a MOTD!
+- The JMessage box has inspired a new button and stamp, as well! For now, I think I would like this to be the primary button that leads to my site. But the Balrog Button is still the OG! Pour one out for the toaster
+- Stamps are now chilling on da left. Who knows how long they'll stay, catch em while you can!
+
+
 ## 9/3/24 12:56pm
 - A chatbox has been added to the site! It's so cool to see the page coming together one piece at a time. I have a lot of fun adding one or two cool things each day!
 

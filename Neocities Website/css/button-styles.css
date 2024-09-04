@@ -1,3 +1,7 @@
+
+
+
+
 .balrog-stamp {
     /*
     Balrog Stamp created by Jug @ jugbug.neocities.org
@@ -67,6 +71,34 @@
 .balrog-button-31:active {
     background-position: -62px 0;
 }
+
+.jugstory-button-31 {
+    /*
+    Jug Story Button 31x31 created by Jug @ jugbug.neocities.org
+    */
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    border-radius: 0;
+
+    width: 31px;
+    height: 31px;
+
+    background-image: url('../images/buttons/jugstory button/jugstory-button-31x31.jpg');
+    background-repeat: no-repeat;
+}
+
+.jugstory-stamp {
+    /*
+    Jug Story Stamp created by Jug @ jugbug.neocities.org
+    */
+    width: 99px;
+    height: 56px;
+
+    background-image: url('../images/buttons/jugstory button/jugstory-stamp.png');
+    background-repeat: no-repeat;
+}
+
 
 .hank-button-31 {
     /*
