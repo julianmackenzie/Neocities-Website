@@ -1,4 +1,6 @@
 
+# 9/4/24 6:18pm
+- Theme switcher added! Using JS and a lot of Googling, I have added the ability to switch between any of the 8 Chrono Trigger text boxes. Enjoy!
 
 ## 9/4/24 12:42pm
 - The site is now <i>slightly</i> responsive. Boxes at least fit their content on mobile.

@@ -196,9 +196,8 @@ a:active {
 
 
 
-.chrono-background-1 {
+.theme-background {
     background-image: url("../images/panels/chrono backgrounds/chrono-background-1.jpg");
-
     border: 8px solid transparent;
     border-image: url("../images/panels/chrono backgrounds/chrono-border-1.png") 8 round;
 
@@ -212,3 +211,6 @@ a:active {
     display: flex;
     flex-direction: column;
 }
+
+
+
