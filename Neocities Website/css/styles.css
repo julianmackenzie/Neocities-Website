@@ -111,6 +111,10 @@ a:active {
 
 .content {
     display: flex;
+    @media screen and (max-width: 800px) {
+        flex-wrap: wrap;
+    }
+    
     gap: 2px;
     justify-content: space-between;
 }
@@ -118,16 +122,25 @@ a:active {
 
 .sidebar-left {
     width: 20%;
+    @media screen and (max-width: 800px) {
+        width: 29%;
+    }
     flex-direction: column;
 }
 
 .content-body {
     width: 60%;
+    @media screen and (max-width: 800px) {
+        width: 66%;
+    }
     flex-direction: column;
 }
 
 .sidebar-right {
     width: 192px;
+    @media screen and (max-width: 800px) {
+        width: 100%;
+    }
     display: flex;
     flex-direction: column;
 }
