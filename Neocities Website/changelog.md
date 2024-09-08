@@ -1,3 +1,9 @@
+## 9/8/24 6:31pm
+- Heart Tank Button now comes in 31x31. Get!
+
+## 9/8/24 6:00pm
+- This is your changelog speaking. Clicking the header of the mini-log will now take you to an entire page dedicated to reading me! There are quite a few funny bits of banter interspersed throughout these logs, so give 'er a better look with this new page!
+
 ## 9/8/24 4:56pm
 - I just spent ages refactoring the site so that elements common to multiple pages (navigation, sidebars, etc.) are separate HTML files loaded via JavaScript. The issue with it was that the scripts I have, the theme switcher and changelog loader, HAD to be run in the base HTML file and would not work in the abstracted component files. So, I had to rewrite them both to work from the base file and wait for shit in the loaded ones.
 - This approach means that making new pages and updating the common elements of all pages will be much easier and more organized. However, it make take a split second longer for pages to load the common content. A worthy trade-off.

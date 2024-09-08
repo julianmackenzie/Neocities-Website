@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Juggin' In The Free World</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/button-styles.css">
+        <link rel="stylesheet" href="css/theme-styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&display=swap" rel="stylesheet">
+
+
+        <script defer src="./js/templates.js"></script>
+    </head>
+
+    <!-- Page content -->
+    <body>
+
+
+        <div class="main tektur-500-small">
+
+            <div id="navigation" class="theme-background">
+               
+            </div>
+
+            
+
+            
+            <div class="content">
+                <div id="sidebar-left" class="sidebar-left">
+
+                    <script src="./js/theme-switcher.js"></script>
+                </div>
+
+
+                <div class="content-body theme-background tektur-500-small">
+                    <h1>Changelog</h1>
+                    <div id="full-changelog">
+
+                    </div>
+
+
+
+                    <div class="heart-tank-box" style="display: flex; justify-content: right;">
+                        <div id="heart-tank-button"></div>
+                        <script src="js/heart-tank-button.js"></script>
+                        <audio id="audio-player" src="https://files.catbox.moe/z2ojyp.mp3" preload="none"></audio>
+                    </div>
+                </div>
+
+                
+                <div id="sidebar-right" class="sidebar-right">
+
+                    <!-- Christopher Jeffrey's Markdown to HTML script -->
+                    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+                    <script src="./js/load-changelog.js"></script>
+
+                </div>
+            </div>
+
+
+        </div>
+        
+
+
+
+        <div style="min-height: 115px;">
+            <div class="foreground-gif"></div>
+            <div class="background-gif"></div>
+        </div>
+
+    </body>
+
+</html>

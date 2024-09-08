@@ -8,6 +8,9 @@ document.addEventListener('DOMContentLoaded', () => {
             const changeloghtml = marked.parse(changelogtext);
             // Append changelog to any existing HTML content in the specified container.
             document.getElementById('minichangelog').innerHTML += changeloghtml;
+            if (document.getElementById('full-changelog')) {
+                document.getElementById('full-changelog').innerHTML += changeloghtml;
+            }
         } catch (changelogerror) {
             console.error('Changelog killed itself:', changelogerror);
         }
