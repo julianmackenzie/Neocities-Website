@@ -1,3 +1,9 @@
+## 9/8/24 4:56pm
+- I just spent ages refactoring the site so that elements common to multiple pages (navigation, sidebars, etc.) are separate HTML files loaded via JavaScript. The issue with it was that the scripts I have, the theme switcher and changelog loader, HAD to be run in the base HTML file and would not work in the abstracted component files. So, I had to rewrite them both to work from the base file and wait for shit in the loaded ones.
+- This approach means that making new pages and updating the common elements of all pages will be much easier and more organized. However, it make take a split second longer for pages to load the common content. A worthy trade-off.
+- This fucking sucked.
+- Next, we'll see if my scripts break when on inner pages since I have my non-index HTML files in /pages. I think I've prepped them to function inside an inner directory but I can't be sure.
+
 ## 9/8/24 3:20pm
 - A healthy little easter egg has been added (as well as a kindred button).
 

@@ -1,6 +1,6 @@
 
 document.addEventListener('DOMContentLoaded', function() {
-    const themeswitcher = document.getElementById('theme-switcher');
+    
     
 
     // Check if at index.html, to know if ./ or ../ is needed in image URLs
@@ -42,10 +42,49 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    themeswitcher.addEventListener('change', function() {
-        const selectedValue = themeswitcher.value;
-        updateStyles(selectedValue);
+
+
+    /*
+        NOTE:
+
+        The theme switcher select exists inside of sidebar-left.html, which is
+        added to pages dynamically as a template. This script, however, has to
+        run in the page that is LOADING this other html file. So, we have to
+        wait until the other file is loaded before trying to find the theme
+        switcher, or it will be null and the script will not work.
+
+    */
+    function waitForElement(selector, callback, interval = 100, timeout = 5000) {
+        const startTime = Date.now();
+      
+        const timer = setInterval(() => {
+            const element = document.querySelector(selector);
+      
+            if (element) {
+                clearInterval(timer);
+                callback(element);
+            } else if (Date.now() - startTime > timeout) {
+                clearInterval(timer);
+                console.error('Theme switcher not found within the timeout period');
+            }
+        }, interval);
+    }
+
+    waitForElement('#theme-switcher', (element) => {
+        // Theme switcher has loaded and can be used
+        const themeswitcher = document.getElementById('theme-switcher');
+
+        themeswitcher.addEventListener('change', function() {
+            const selectedValue = themeswitcher.value;
+            updateStyles(selectedValue);
+        });
+    
+        updateStyles(themeswitcher.value);
     });
 
-    updateStyles(themeswitcher.value);
+
+
+
+
+
 });
