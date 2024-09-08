@@ -1,3 +1,6 @@
+## 9/8/24 6:55pm
+- The changelogs suffered the same issue as the theme switcher due to loading inside of a JS-added HTML component. It now works on the same logic, waiting to guarantee that the element was loaded before populating the log box with information.
+
 ## 9/8/24 6:31pm
 - Heart Tank Button now comes in 31x31. Get!
 
