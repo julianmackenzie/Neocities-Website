@@ -1,3 +1,6 @@
+## 9/8/24 3:20pm
+- A healthy little easter egg has been added (as well as a kindred button).
+
 ## 9/8/24 12:30pm
 - Purity. The Cave Story theme has been added. I may make recolors of this text box... maybe.
 

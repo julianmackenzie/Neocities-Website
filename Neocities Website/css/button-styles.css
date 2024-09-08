@@ -123,3 +123,14 @@
     background-image: url('../images/buttons/hank button/hank-button-88x31.gif');
     background-repeat: no-repeat;
 }
+
+.hearttank-button-88 {
+    /*
+    Heart Tank 88x31 created by Jug @ jugbug.neocities.org
+    */
+    width: 88px;
+    height: 31px;
+
+    background-image: url('../images/buttons/hearttank button/heart-tank-88x31.jpg');
+    background-repeat: no-repeat;
+}
