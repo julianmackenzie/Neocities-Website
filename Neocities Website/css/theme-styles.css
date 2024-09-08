@@ -1,75 +1,95 @@
 
+/*
+    NOTE:
+
+    When adding themes to this stylesheet, ensure that the theme class is added
+    to the el.classList.remove function inside of theme-switcher.js. This ensures
+    that one theme is cleared before the next is applied!
+
+
+*/
+
+
 
 .theme-background {
-    background-image: url("../images/panels/chrono backgrounds/chrono-background-1.jpg");
+    background-image: url("../images/panels/chrono-background-1.jpg");
     border: 8px solid transparent;
-    border-image: url("../images/panels/chrono backgrounds/chrono-border-1.png") 8 round;
+    background-clip: padding-box;
+    border-image: url("../images/panels/chrono-border-1.png") 8 round;
 }
 
 
 
 .chrono-theme-1 {
-    --index-theme-bg-img: url("./images/panels/chrono backgrounds/chrono-background-1.jpg");
-    --inner-theme-bg-img: url("../images/panels/chrono backgrounds/chrono-background-1.jpg");
+    --index-theme-bg-img: url("./images/panels/chrono-background-1.jpg");
+    --inner-theme-bg-img: url("../images/panels/chrono-background-1.jpg");
     --theme-border-settings: 8px solid transparent;
-    --index-theme-border-img: url("./images/panels/chrono backgrounds/chrono-border-1.png") 8 round;
-    --inner-theme-border-img: url("../images/panels/chrono backgrounds/chrono-border-1.png") 8 round;
+    --index-theme-border-img: url("./images/panels/chrono-border-1.png") 8 round;
+    --inner-theme-border-img: url("../images/panels/chrono-border-1.png") 8 round;
 }
 
 .chrono-theme-2 {
-    --index-theme-bg-img: url("./images/panels/chrono backgrounds/chrono-background-2.jpg");
-    --inner-theme-bg-img: url("../images/panels/chrono backgrounds/chrono-background-2.jpg");
+    --index-theme-bg-img: url("./images/panels/chrono-background-2.jpg");
+    --inner-theme-bg-img: url("../images/panels/chrono-background-2.jpg");
     --theme-border-settings: 8px solid transparent;
-    --index-theme-border-img: url("./images/panels/chrono backgrounds/chrono-border-2.png") 8 round;
-    --inner-theme-border-img: url("../images/panels/chrono backgrounds/chrono-border-2.png") 8 round;
+    --index-theme-border-img: url("./images/panels/chrono-border-2.png") 8 round;
+    --inner-theme-border-img: url("../images/panels/chrono-border-2.png") 8 round;
 }
 
 .chrono-theme-3 {
-    --index-theme-bg-img: url("./images/panels/chrono backgrounds/chrono-background-3.jpg");
-    --inner-theme-bg-img: url("../images/panels/chrono backgrounds/chrono-background-3.jpg");
+    --index-theme-bg-img: url("./images/panels/chrono-background-3.jpg");
+    --inner-theme-bg-img: url("../images/panels/chrono-background-3.jpg");
     --theme-border-settings: 8px solid transparent;
-    --index-theme-border-img: url("./images/panels/chrono backgrounds/chrono-border-3.png") 8 round;
-    --inner-theme-border-img: url("../images/panels/chrono backgrounds/chrono-border-3.png") 8 round;
+    --index-theme-border-img: url("./images/panels/chrono-border-3.png") 8 round;
+    --inner-theme-border-img: url("../images/panels/chrono-border-3.png") 8 round;
 }
 
 .chrono-theme-4 {
-    --index-theme-bg-img: url("./images/panels/chrono backgrounds/chrono-background-4.jpg");
-    --inner-theme-bg-img: url("../images/panels/chrono backgrounds/chrono-background-4.jpg");
+    --index-theme-bg-img: url("./images/panels/chrono-background-4.jpg");
+    --inner-theme-bg-img: url("../images/panels/chrono-background-4.jpg");
     --theme-border-settings: 8px solid transparent;
-    --index-theme-border-img: url("./images/panels/chrono backgrounds/chrono-border-4.png") 8 round;
-    --inner-theme-border-img: url("../images/panels/chrono backgrounds/chrono-border-4.png") 8 round;
+    --index-theme-border-img: url("./images/panels/chrono-border-4.png") 8 round;
+    --inner-theme-border-img: url("../images/panels/chrono-border-4.png") 8 round;
 }
 
 .chrono-theme-5 {
-    --index-theme-bg-img: url("./images/panels/chrono backgrounds/chrono-background-5.jpg");
-    --inner-theme-bg-img: url("../images/panels/chrono backgrounds/chrono-background-5.jpg");
+    --index-theme-bg-img: url("./images/panels/chrono-background-5.jpg");
+    --inner-theme-bg-img: url("../images/panels/chrono-background-5.jpg");
     --theme-border-settings: 8px solid transparent;
-    --index-theme-border-img: url("./images/panels/chrono backgrounds/chrono-border-5.png") 8 round;
-    --inner-theme-border-img: url("../images/panels/chrono backgrounds/chrono-border-5.png") 8 round;
+    --index-theme-border-img: url("./images/panels/chrono-border-5.png") 8 round;
+    --inner-theme-border-img: url("../images/panels/chrono-border-5.png") 8 round;
 }
 
 .chrono-theme-6 {
-    --index-theme-bg-img: url("./images/panels/chrono backgrounds/chrono-background-6.jpg");
-    --inner-theme-bg-img: url("../images/panels/chrono backgrounds/chrono-background-6.jpg");
+    --index-theme-bg-img: url("./images/panels/chrono-background-6.jpg");
+    --inner-theme-bg-img: url("../images/panels/chrono-background-6.jpg");
     --theme-border-settings: 8px solid transparent;
-    --index-theme-border-img: url("./images/panels/chrono backgrounds/chrono-border-6.png") 8 round;
-    --inner-theme-border-img: url("../images/panels/chrono backgrounds/chrono-border-6.png") 8 round;
+    --index-theme-border-img: url("./images/panels/chrono-border-6.png") 8 round;
+    --inner-theme-border-img: url("../images/panels/chrono-border-6.png") 8 round;
 }
 
 .chrono-theme-7 {
-    --index-theme-bg-img: url("./images/panels/chrono backgrounds/chrono-background-7.jpg");
-    --inner-theme-bg-img: url("../images/panels/chrono backgrounds/chrono-background-7.jpg");
+    --index-theme-bg-img: url("./images/panels/chrono-background-7.jpg");
+    --inner-theme-bg-img: url("../images/panels/chrono-background-7.jpg");
     --theme-border-settings: 8px solid transparent;
-    --index-theme-border-img: url("./images/panels/chrono backgrounds/chrono-border-7.png") 8 round;
-    --inner-theme-border-img: url("../images/panels/chrono backgrounds/chrono-border-7.png") 8 round;
+    --index-theme-border-img: url("./images/panels/chrono-border-7.png") 8 round;
+    --inner-theme-border-img: url("../images/panels/chrono-border-7.png") 8 round;
 }
 
 .chrono-theme-8 {
-    --index-theme-bg-img: url("./images/panels/chrono backgrounds/chrono-background-8.jpg");
-    --inner-theme-bg-img: url("../images/panels/chrono backgrounds/chrono-background-8.jpg");
+    --index-theme-bg-img: url("./images/panels/chrono-background-8.jpg");
+    --inner-theme-bg-img: url("../images/panels/chrono-background-8.jpg");
     --theme-border-settings: 8px solid transparent;
-    --index-theme-border-img: url("./images/panels/chrono backgrounds/chrono-border-8.png") 8 round;
-    --inner-theme-border-img: url("../images/panels/chrono backgrounds/chrono-border-8.png") 8 round;
+    --index-theme-border-img: url("./images/panels/chrono-border-8.png") 8 round;
+    --inner-theme-border-img: url("../images/panels/chrono-border-8.png") 8 round;
+}
+
+.cave-theme-1 {
+    --index-theme-bg-img: url("./images/panels/cave-background-1.jpg");
+    --inner-theme-bg-img: url("../images/panels/cave-background-1.jpg");
+    --theme-border-settings: 8px solid transparent;
+    --index-theme-border-img: url("./images/panels/cave-border-1.png") 8 round;
+    --inner-theme-border-img: url("../images/panels/cave-border-1.png") 8 round;
 }
 
 

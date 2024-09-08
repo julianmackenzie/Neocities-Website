@@ -1,6 +1,10 @@
+## 9/8/24 12:30pm
+- Purity. The Cave Story theme has been added. I may make recolors of this text box... maybe.
 
-# 9/4/24 6:18pm
+
+## 9/4/24 6:18pm
 - Theme switcher added! Using JS and a lot of Googling, I have added the ability to switch between any of the 8 Chrono Trigger text boxes. Enjoy!
+
 
 ## 9/4/24 12:42pm
 - The site is now <i>slightly</i> responsive. Boxes at least fit their content on mobile.

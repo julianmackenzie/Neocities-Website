@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         elements.forEach(el =>{
             // clear all possible themes (add to this list if more themes are added)
-            el.classList.remove('chrono-theme-1', 'chrono-theme-2', 'chrono-theme-3', 'chrono-theme-4', 'chrono-theme-5', 'chrono-theme-6', 'chrono-theme-7', 'chrono-theme-8');
+            el.classList.remove('chrono-theme-1', 'chrono-theme-2', 'chrono-theme-3', 'chrono-theme-4', 'chrono-theme-5', 'chrono-theme-6', 'chrono-theme-7', 'chrono-theme-8', 'cave-theme-1');
             el.classList.add(styleClass);
 
             // use ./ when at index.html
